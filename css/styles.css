@@ -10,6 +10,7 @@
 body {
     font-family: 'Manrope', sans-serif;
     background-color: var(--light-grayish-blue);
+    color: var(--very-dark-grayish-blue);
 }
 
 
@@ -17,6 +18,7 @@ body {
     background-color: #fff;
     margin: 14rem;
     border-radius: 0.7rem;
+    
     
   
 }
@@ -26,11 +28,75 @@ body {
 }
 
 .image img {
-    width: 20rem;
+    width: 22rem;
     border-radius: 0.7rem 0 0 0.7rem;
+   
+
 }
 
 .rightside {
-    width: 20rem;
+    width: 24rem;
     margin: auto;
 }
+
+.title {
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+} 
+
+.text {
+    font-size: 14px;
+    padding-bottom: 1rem;
+}
+    
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.personal-information {
+    display: flex;
+}
+.avatar {
+    border-radius: 50%;
+    width: 3rem;
+}
+
+.name-date {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 1rem;
+    
+}
+
+.name {
+    font-weight: bold;
+}
+
+.social-icons {
+    background-color: var(--very-dark-grayish-blue);
+    display: flex;
+    justify-content: space-around;
+    width: 13rem;
+    padding: 1rem;
+    border-radius: 0.7rem;
+
+}
+
+.share {
+    color: #fff;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 18px solid var(--very-dark-grayish-blue);
+    margin-left: 6.5rem;
+  }
