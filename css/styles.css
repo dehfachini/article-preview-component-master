@@ -78,6 +78,10 @@ body {
     font-weight: bold;
 }
 
+#share-icon {
+    cursor: pointer;
+}
+
 .social-icons {
     background-color: var(--very-dark-grayish-blue);
     display: flex;
@@ -85,6 +89,7 @@ body {
     width: 13rem;
     padding: 1rem;
     border-radius: 0.7rem;
+ 
 
 }
 
