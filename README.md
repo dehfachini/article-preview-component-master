@@ -14,7 +14,7 @@ This is a solution to the [Article preview component on Frontend Mentor]https://
 
 ### Links
 
-- Live Site URL: [github-pages](https://dehfachini.github.io/article-preview-component/)
+- Live Site URL: [github-pages](https://dehfachini.github.io/article-preview-component-master/)
 
 ## My process
 
